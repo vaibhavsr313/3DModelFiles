@@ -1,0 +1,169 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 32692,
+            "type": "VEC3",
+            "max": [
+                32.362091064453125,
+                413.5502014160156,
+                -2.61334228515625
+            ],
+            "min": [
+                -9.568037986755371,
+                -88.16313171386719,
+                -207.70042419433594
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 32692,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 32692,
+            "type": "VEC2",
+            "max": [
+                1.0,
+                1.0
+            ],
+            "min": [
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 49470,
+            "type": "SCALAR",
+            "max": [
+                32691
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1244024,
+            "uri": "pioche_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 392304,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 392304,
+            "byteLength": 392304,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 784608,
+            "byteLength": 261536,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1046144,
+            "byteLength": 197880,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1"
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "pioche",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "Tour_Eiffel",
+            "matrix": [
+                0.02554231882095337,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.005284798797219992,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.005284798797219992,
+                0.0,
+                -0.28296270966529846,
+                0.4781862497329712,
+                0.5602344274520874,
+                1.0
+            ],
+            "mesh": 0,
+            "extras": {
+                "name": "Tour Eiffel"
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
